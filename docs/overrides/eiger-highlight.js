@@ -3,7 +3,7 @@ script1.src = 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highli
 script1.defer = true;
 script1.onload = function() {
   var script2 = document.createElement('script');
-  script2.src = 'eiger.js';
+  script2.src = '/overrides/eiger.js';
   script2.defer = true;
   script2.onload = function() {
     hljs.highlightAll();

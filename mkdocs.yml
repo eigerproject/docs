@@ -2,20 +2,34 @@ site_name: Eigerlang Documentation
 repo_url: https://github.com/eigerproject/eigerlang
 repo_name: eigerproject/eigerlang
 
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ru
+          name: Русский
+          build: true
+        - locale: hy
+          name: Հայերեն
+          build: true
+
 extra_css:
   - 'overrides/extra.css'
 
 extra_javascript:
   - 'overrides/eiger-highlight.js'
 
-nav:
-  - Home: index.md
-  - About: about.md
 extra:
     alternate:
       - name: English
-        link: / 
+        link: /
         lang: en
+        flag: test
       - name: Русский
         link: /ru/
         lang: ru
@@ -25,7 +39,7 @@ extra:
 theme:
   name: material
   logo: ./logo.png
-  custom_dir: docs/overrides
+
   features:
     - content.code.copy
     - content.code.annotate 
