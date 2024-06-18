@@ -1,0 +1,48 @@
+site_name: Eigerlang Documentation
+repo_url: https://github.com/eigerproject/eigerlang
+repo_name: eigerproject/eigerlang
+
+extra_css:
+  - 'overrides/extra.css'
+
+extra_javascript:
+  - 'overrides/eiger-highlight.js'
+
+nav:
+  - Home: index.md
+  - About: about.md
+extra:
+    alternate:
+      - name: English
+        link: / 
+        lang: en
+      - name: Русский
+        link: /ru/
+        lang: ru
+      - name: Հայերեն
+        link: /hy/
+        lang: hy
+theme:
+  name: material
+  logo: ./logo.png
+  custom_dir: docs/overrides
+  features:
+    - content.code.copy
+    - content.code.annotate 
+  font:
+    text: Roboto
+  palette: 
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: custom
+      accent: custom
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: custom
+      accent: custom

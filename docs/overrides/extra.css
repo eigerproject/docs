@@ -1,0 +1,36 @@
+[data-md-color-primary=custom]{
+    --md-primary-fg-color: #425978;
+    --md-primary-bg-color: #a4b9d3;
+}
+
+[data-md-color-accent=custom]{
+    --md-accent-fg-color: #6d84a2;
+}
+
+.hljs-string {
+    color: #98C379; /* Light green */
+}
+
+.hljs-keyword {
+    color: #56B6C2; /* Light blue */
+}
+
+.hljs-comment {
+    color: #7F848E; /* Light gray */
+}
+
+.hljs-identifier {
+    color: #D19A66; /* Light orange */
+}
+
+.hljs-function {
+    color: #E5C07B; /* Light yellow */
+}
+
+.hljs-operator {
+    color: #C678DD; /* Light purple */
+}
+
+.hljs-number {
+    color: #B5CEA8; /* Light green */
+}
