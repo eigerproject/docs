@@ -1,4 +1,4 @@
-# :fontawesome-solid-flag-checkered: Quickstart
+# __:fontawesome-solid-flag-checkered: Quickstart__
 To get started with Eiger, you can use the built-in shell or just run the `.ei` file.
 
 ## :fontawesome-solid-terminal: Shell

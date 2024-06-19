@@ -1,4 +1,4 @@
-# :fontawesome-solid-flag-checkered: Արագ մեկնարկ
+# __:fontawesome-solid-flag-checkered: Արագ մեկնարկ__
 Eiger-ով սկսելու համար կարող եք օգտագործել ներկառուցված հրամանի տողը կամ պարզապես գործարկել `.ei` ֆայլը:
 
 ## :fontawesome-solid-terminal: Հրամանի տող

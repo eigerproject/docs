@@ -1,4 +1,4 @@
-# :fontawesome-solid-flag-checkered: Начало
+# __:fontawesome-solid-flag-checkered: Начало__
 Чтобы начать работу с Eiger, вы можете использовать встроенную командную строку или просто запустить файл `.ei`.
 
 ## :fontawesome-solid-terminal: Командная Строка
