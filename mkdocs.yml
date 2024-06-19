@@ -33,14 +33,13 @@ extra_javascript:
 extra:
     alternate:
       - name: English
-        link: /
+        link: /docs
         lang: en
-        flag: test
       - name: Русский
-        link: /ru/
+        link: ru
         lang: ru
       - name: Հայերեն
-        link: /hy/
+        link: hy
         lang: hy
 theme:
   name: material
