@@ -1,32 +1,32 @@
-# __Բարի գալուստ__
+# __:fontawesome-solid-door-open: Բարի գալուստ__
 ![Wordmark](../wordmark.png)
 Eiger (անունը [Շվեյցարիայի Էյգեր լեռից](https://en.wikipedia.org/wiki/Eiger)) պարզ, դինամիկ տպագրված ծրագրավորման լեզու է:
 
 ---
 
-__Կայք__: [https://eigerproject.github.io](https://eigerproject.github.io)
+__:fontawesome-solid-globe: Կայք__: [https://eigerproject.github.io](https://eigerproject.github.io)
 
-__Դոկումենտացիա__: [https://eigerproject.github.io/docs](https://eigerproject.github.io/docs)
+__:fontawesome-solid-book: Դոկումենտացիա__: [https://eigerproject.github.io/docs](https://eigerproject.github.io/docs)
 
-__GitHub Հղում__: [https://github.com/eigerproject/eigerlang](https://eigerproject.github.io/docs)
+__:fontawesome-brands-git-alt: GitHub Հղում__: [https://github.com/eigerproject/eigerlang](https://eigerproject.github.io/docs)
 
 ---
 
-## __Ներածություն__
+## __:fontawesome-solid-lightbulb: Ներածություն__
 Eiger-ը ծրագրավորման լեզու է, որը նախատեսված է կոդավորումը պարզեցնելու համար: Շվեյցարական խորհրդանշական լեռան անունով կոչված լեզուն աչկի է ընկնում իր պարզությամբ և ուժով:
 
 --- 
 
-### __Առանձնահատկություններ__
+### __:fontawesome-solid-bolt: Առանձնահատկություններ__
 
-- __Դինամիկ Տեսակավորում__: Eiger-ը թույլ է տալիս կոդ գրել՝ առանց տվյալների տեսակների մասին անհանգստանալու: Փոփոխականները դինամիկ կերպով տպագրվում են, ինչը հնարավորություն է տալիս կենտրոնանալ ծրագրի լոգիկայի վրա, այլ ոչ թե տիպերի վրա
-- __Պարզ Սինտաքս__: Eiger-ի սինտաքսը նախատեսված է հեշտ և ընթեռնելի լինելու համար: Ոգեշնչված է Python-ի նման լեզուների պարզությամբ։
-- __Ստանդարտ Գրադարաններ__: Eiger-ն ունի ստանդարտ գրադարաններ, որոնք կարող են ներառվել ձեր կոդի մեջ մեկ տողի միջոցով: Ստանդարտ գրադարաններն ունեն շատ օգտագործվող կոդ։
+- __:fontawesome-solid-quote-right: Դինամիկ Տեսակավորում__: Eiger-ը թույլ է տալիս կոդ գրել՝ առանց տվյալների տեսակների մասին անհանգստանալու: Փոփոխականները դինամիկ կերպով տպագրվում են, ինչը հնարավորություն է տալիս կենտրոնանալ ծրագրի լոգիկայի վրա, այլ ոչ թե տիպերի վրա
+- __:fontawesome-solid-code: Պարզ Սինտաքս__: Eiger-ի սինտաքսը նախատեսված է հեշտ և ընթեռնելի լինելու համար: Ոգեշնչված է Python-ի նման լեզուների պարզությամբ։
+- __:fontawesome-solid-book: Ստանդարտ Գրադարաններ__: Eiger-ն ունի ստանդարտ գրադարաններ, որոնք կարող են ներառվել ձեր կոդի մեջ մեկ տողի միջոցով: Ստանդարտ գրադարաններն ունեն շատ օգտագործվող կոդ։
 
-### __Սինտաքս__
+### __:fontawesome-solid-code: Սինտաքս__
 ```eiger
 ~ Սա կոմմենտ է
-message = "Բարեւ աշխարհ!"
+message = "Բարեւ, աշխարհ"
 emitln(message)
 
 func ask(a,b)
