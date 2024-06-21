@@ -1,10 +1,15 @@
 [data-md-color-primary=custom]{
-    --md-primary-fg-color: #425978;
-    --md-primary-bg-color: #a4b9d3;
+    --md-primary-fg-color: rgb(34, 39, 44);
+    --md-primary-bg-color: rgb(126, 134, 142);
 }
 
 [data-md-color-accent=custom]{
     --md-accent-fg-color: #6d84a2;
+}
+
+.md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code, .md-typeset a
+{
+    --md-typeset-a-color: var(--md-primary-bg-color);
 }
 
 .hljs-string {
