@@ -43,6 +43,7 @@ extra:
         lang: hy
 theme:
   name: material
+  favicon: ./logo.png
   logo: ./logo.png
 
   features:
