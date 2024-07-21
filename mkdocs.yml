@@ -1,6 +1,6 @@
 site_name: Eigerlang Documentation
-repo_url: https://github.com/eigerproject/eigerlang
-repo_name: eigerproject/eigerlang
+repo_url: https://github.com/eigerproject/eigercs
+repo_name: eigerproject/eigercs
 
 
 markdown_extensions:

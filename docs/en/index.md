@@ -8,7 +8,7 @@ __:fontawesome-solid-globe: Website__: [https://eigerproject.github.io](https://
 
 __:fontawesome-solid-book: Documentation__: [https://eigerproject.github.io/docs](https://eigerproject.github.io/docs)
 
-__:fontawesome-brands-git-alt: Repository__: [https://github.com/eigerproject/eigerlang](https://eigerproject.github.io/docs)
+__:fontawesome-brands-git-alt: Repository__: [https://github.com/eigerproject/eigercs](https://github.com/eigerproject/eigercs)
 
 ---
 
