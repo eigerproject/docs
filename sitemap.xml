@@ -57,6 +57,14 @@
         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Documentation/functions/"/>
     </url>
     <url>
+        <loc>NoneDocumentation/modules/</loc>
+        <lastmod>2024-07-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/modules/"/>
+        <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/modules/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Documentation/modules/"/>
+    </url>
+    <url>
         <loc>Noneru/</loc>
         <lastmod>2024-07-21</lastmod>
         <changefreq>daily</changefreq>
@@ -113,6 +121,14 @@
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/functions/"/>
     </url>
     <url>
+        <loc>Noneru/Documentation/modules/</loc>
+        <lastmod>2024-07-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Documentation/modules/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/modules/"/>
+        <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/modules/"/>
+    </url>
+    <url>
         <loc>Nonehy/</loc>
         <lastmod>2024-07-21</lastmod>
         <changefreq>daily</changefreq>
@@ -167,5 +183,13 @@
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/functions/"/>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/functions/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Documentation/functions/"/>
+    </url>
+    <url>
+        <loc>Nonehy/Documentation/modules/</loc>
+        <lastmod>2024-07-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/modules/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/modules/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Documentation/modules/"/>
     </url>
 </urlset>
