@@ -1,19 +1,19 @@
 # __:fontawesome-solid-users: Contributing__
 
-We are looking for contributors to help us develop the language. If you are interested, please make contributions to the `eigerproject/eigerlang` repository.
+We are looking for contributors to help us develop the language. If you are interested, please make contributions to the `eigerproject/eigercs` repository.
 
 ## :fontawesome-solid-question: How to contribute
 1. Fork the repository
-    - Navigate to the `eigerproject/eigerlang`
+    - Navigate to the `eigerproject/eigercs`
     - Click the `Fork` button at the top right of the page
 2. Clone the repository
     - Clone your forked repository to your local machine
     ```
-    git clone https://github.com/YOUR-USERNAME/eigerlang.git
+    git clone https://github.com/YOUR-USERNAME/eigercs.git
     ```
     - Navigate into the cloned directory
     ```
-    cd eigerlang
+    cd eigercs
     ```
 3. Create a new branch
     - Create and switch to a new branch for your changes
@@ -38,7 +38,7 @@ We are looking for contributors to help us develop the language. If you are inte
     git push origin my-feature-branch
     ```
 7. Create a PR (Pull Request)
-    - Go to the `eigerproject/eigerlang` repository
+    - Go to the `eigerproject/eigercs` repository
     - Click the "Compare & Pull Request" button next to your recently pushed branch
     - Provide a clear title for your pull request
     - Describe the changes you made and why they are necessary
@@ -53,14 +53,14 @@ We are looking for contributors to help us develop the language. If you are inte
 
 ## :fontawesome-solid-bug: Reporting Issues
 
-If you encounter any bugs or issues while using EigerLang, please report them by opening an issue in the repository. Provide as much detail as possible, including steps to reproduce the issue, your environment, and any relevant error messages.
+If you encounter any bugs or issues while using Eigerlang, please report them by opening an issue in the repository. Provide as much detail as possible, including steps to reproduce the issue, your environment, and any relevant error messages.
 
 ## :fontawesome-solid-handshake-angle: Getting Help
 
-If you need help with anything related to EigerLang, feel free to reach out by opening a discussion in the GitHub repository.
+If you need help with anything related to Eigerlang, feel free to reach out by opening a discussion in the GitHub repository.
 
 ## :fontawesome-solid-trophy: Acknowledgements
 
-We greatly appreciate all contributions from the community. **Thank you for helping us improve EigerLang**!
+We greatly appreciate all contributions from the community. **Thank you for helping us improve Eigerlang**!
 
 ---
