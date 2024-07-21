@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="ru" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -9,25 +9,23 @@
       
       
       
-        <link rel="prev" href="../control-flow/">
+        <link rel="prev" href="../functions/">
       
       
-        <link rel="next" href="../functions/">
       
-      
-      <link rel="icon" href="../../logo.png">
+      <link rel="icon" href="../../../logo.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.27">
     
     
       
-        <title>Data Types - Eigerlang Documentation</title>
+        <title>Модули - Eigerlang Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6543a935.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,9 +44,9 @@
       
     
     
-      <link rel="stylesheet" href="../../overrides/extra.css">
+      <link rel="stylesheet" href="../../../overrides/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,8 +72,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#data-types" class="md-skip">
-          Skip to content
+        <a href="#_1" class="md-skip">
+          Перейти к содержанию
         </a>
       
     </div>
@@ -89,10 +87,10 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Eigerlang Documentation" class="md-header__button md-logo" aria-label="Eigerlang Documentation" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../../" title="Eigerlang Documentation" class="md-header__button md-logo" aria-label="Eigerlang Documentation" data-md-component="logo">
       
-  <img src="../../logo.png" alt="logo">
+  <img src="../../../logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -109,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Data Types
+              Модули
             
           </span>
         </div>
@@ -149,26 +147,26 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="Select language">
+    <button class="md-header__button md-icon" aria-label="Выберите язык">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="./" hreflang="en" class="md-select__link">
+            <a href="../../../Documentation/modules/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../ru/Documentation/data-types/" hreflang="ru" class="md-select__link">
+            <a href="./" hreflang="ru" class="md-select__link">
               Русский
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../hy/Documentation/data-types/" hreflang="hy" class="md-select__link">
+            <a href="../../../hy/Documentation/modules/" hreflang="hy" class="md-select__link">
               Հայերեն
             </a>
           </li>
@@ -187,16 +185,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
+      <nav class="md-search__options" aria-label="Поиск">
         
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
@@ -207,7 +205,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            Инициализация поиска
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -218,7 +216,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/eigerproject/eigercs" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/eigerproject/eigercs" title="Перейти к репозиторию" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
@@ -252,18 +250,18 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Eigerlang Documentation" class="md-nav__button md-logo" aria-label="Eigerlang Documentation" data-md-component="logo">
+    <a href="../../" title="Eigerlang Documentation" class="md-nav__button md-logo" aria-label="Eigerlang Documentation" data-md-component="logo">
       
-  <img src="../../logo.png" alt="logo">
+  <img src="../../../logo.png" alt="logo">
 
     </a>
     Eigerlang Documentation
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/eigerproject/eigercs" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/eigerproject/eigercs" title="Перейти к репозиторию" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
@@ -283,11 +281,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Welcome!
+    Добро пожаловать!
   </span>
   
 
@@ -307,7 +305,7 @@
         
   
   <span class="md-ellipsis">
-    Contributing
+    Вклад в проект
   </span>
   
 
@@ -327,7 +325,7 @@
         
   
   <span class="md-ellipsis">
-    Installation
+    Установка
   </span>
   
 
@@ -347,7 +345,7 @@
         
   
   <span class="md-ellipsis">
-    Quickstart
+    Начало
   </span>
   
 
@@ -404,7 +402,49 @@
         
   
   <span class="md-ellipsis">
-    Control Flow
+    Порядок выполнения
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Типы Данных
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../functions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Функции
   </span>
   
 
@@ -434,7 +474,7 @@
           
   
   <span class="md-ellipsis">
-    Data Types
+    Модули
   </span>
   
 
@@ -445,7 +485,7 @@
         
   
   <span class="md-ellipsis">
-    Data Types
+    Модули
   </span>
   
 
@@ -453,7 +493,7 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
   
   
   
@@ -462,96 +502,84 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      Содержание
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#basic-types" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Basic Types
+      Введение в модули
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#special-types" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      Special Types
+      Включение модулей
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#arrays" class="md-nav__link">
-    <span class="md-ellipsis">
-      Arrays
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#examples-of-usage" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples of Usage
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Examples of Usage">
+    <nav class="md-nav" aria-label="Включение модулей">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#working-with-int" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      Working with int
+      Встроенные модули
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#working-with-double" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
-      Working with double
+      Пользовательские модули
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Использование включенных модулей
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Пример структуры проекта
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Пример структуры проекта">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mainei" class="md-nav__link">
+    <span class="md-ellipsis">
+      main.ei
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#working-with-bool" class="md-nav__link">
+  <a href="#mymoduleei" class="md-nav__link">
     <span class="md-ellipsis">
-      Working with bool
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#working-with-string" class="md-nav__link">
-    <span class="md-ellipsis">
-      Working with string
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#working-with-nix" class="md-nav__link">
-    <span class="md-ellipsis">
-      Working with nix
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#combining-different-data-types" class="md-nav__link">
-    <span class="md-ellipsis">
-      Combining different data types
+      mymodule.ei
     </span>
   </a>
   
@@ -566,48 +594,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../functions/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Functions
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../modules/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Modules
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -633,7 +619,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
   
   
   
@@ -642,96 +628,84 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      Содержание
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#basic-types" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Basic Types
+      Введение в модули
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#special-types" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      Special Types
+      Включение модулей
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#arrays" class="md-nav__link">
-    <span class="md-ellipsis">
-      Arrays
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#examples-of-usage" class="md-nav__link">
-    <span class="md-ellipsis">
-      Examples of Usage
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Examples of Usage">
+    <nav class="md-nav" aria-label="Включение модулей">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#working-with-int" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      Working with int
+      Встроенные модули
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#working-with-double" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
-      Working with double
+      Пользовательские модули
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Использование включенных модулей
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Пример структуры проекта
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Пример структуры проекта">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mainei" class="md-nav__link">
+    <span class="md-ellipsis">
+      main.ei
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#working-with-bool" class="md-nav__link">
+  <a href="#mymoduleei" class="md-nav__link">
     <span class="md-ellipsis">
-      Working with bool
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#working-with-string" class="md-nav__link">
-    <span class="md-ellipsis">
-      Working with string
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#working-with-nix" class="md-nav__link">
-    <span class="md-ellipsis">
-      Working with nix
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#combining-different-data-types" class="md-nav__link">
-    <span class="md-ellipsis">
-      Combining different data types
+      mymodule.ei
     </span>
   </a>
   
@@ -760,102 +734,50 @@
   
 
 
-<h1 id="data-types"><strong><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0s224 35.8 224 80zm-54.8 134.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432v-85.9z"/></svg></span> Data Types</strong></h1>
-<h2 id="basic-types">Basic Types</h2>
-<p>The Basic types are:  </p>
+<h1 id="_1"><strong><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 32c-17.7 0-32 14.3-32 32v368c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V152.2c0-18.2-19.4-29.7-35.4-21.1L352 215.4v-63.2c0-18.2-19.4-29.7-35.4-21.1L160 215.4V64c0-17.7-14.3-32-32-32H64z"/></svg></span> Модули</strong></h1>
+<p>Эта документация охватывает синтаксис и использование модулей в Eiger. Модули позволяют организовывать код, повторно использовать функциональность и поддерживать чистую структуру проекта. В этом руководстве объясняется, как включать как встроенные, так и пользовательские модули в ваши проекты.</p>
+<h2 id="_2">Введение в модули</h2>
+<p>Модули в Eiger предоставляют способ инкапсуляции кода в отдельные файлы, которые можно включать и повторно использовать в различных частях проекта. Существует два типа модулей:</p>
 <ul>
-<li><code>int</code>: Integer Number</li>
-<li><code>double</code>: Double Number (with floating point, e.g <code>1.2</code>)</li>
-<li><code>bool</code>: Boolean value</li>
-<li><code>string</code>: String value</li>
+<li><strong>Встроенные</strong>: предоставляются языком и включаются без кавычек</li>
+<li><strong>Пользовательские</strong>: создаются пользователем и включаются с кавычками</li>
 </ul>
-<h2 id="special-types">Special Types</h2>
-<ul>
-<li><code>nix</code>: Represents undefined value</li>
-<li><code>function</code>: Represents a function (see <a href="../functions"><code>functions</code></a>)</li>
-</ul>
-<h2 id="arrays">Arrays</h2>
-<p>Arrays are declared using square brackets (<code>[]</code>). An array can contain any data type.</p>
-<pre><code class="language-eiger">~ Arrays
-a = [1,2,3]
-b = [&quot;Hello World!&quot;,2.0,4.2]
-
-~ Arrays can be nested
-d = [[1,2],[[3,4],5]]
-
-~ Arrays can be empty
-e = []
+<h2 id="_3">Включение модулей</h2>
+<p>Чтобы включить модуль в ваш файл, используйте оператор <code>include</code>, за которым следует имя модуля.</p>
+<h3 id="_4">Встроенные модули</h3>
+<p>Встроенные модули включаются без кавычек. Эти модули предоставляют часто используемые функциональности.</p>
+<pre><code class="language-eiger">include math ~ Включает встроенный модуль math
 </code></pre>
-<h2 id="examples-of-usage">Examples of Usage</h2>
-<h3 id="working-with-int">Working with <code>int</code></h3>
-<pre><code class="language-eiger">~ Declaring an integer
-age = 25
-
-~ Performing arithmetic operations
-sum = age + 5
-difference = age - 3
-product = age * 2
-quotient = age / 5
+<h3 id="_5">Пользовательские модули</h3>
+<p>Пользовательские модули включаются с кавычками. Эти модули создаются пользователем и могут быть организованы в каталоге проекта.</p>
+<pre><code class="language-eiger">include &quot;mymodule.ei&quot; ~ Включает пользовательский модуль mymodule.ei
 </code></pre>
-<h3 id="working-with-double">Working with <code>double</code></h3>
-<pre><code class="language-eiger">~ Declaring a double
-height = 1.75
+<h2 id="_6">Использование включенных модулей</h2>
+<p>После включения модуля вы можете получить доступ к его функциональности и определённым классам или переменным. Например, если модуль определяет класс или переменную, вы можете использовать их непосредственно в своем коде.</p>
+<pre><code class="language-eiger">include &quot;mymodule.ei&quot; ~ Этот модуль содержит реализацию для dataclass Test
 
-~ Performing arithmetic operations
-sum = height + 0.25
-difference = height - 0.5
-product = height * 2.0
-quotient = height / 2.0
+emitln(Test.message) ~ Доступ к свойству из dataclass включенного модуля
 </code></pre>
-<h3 id="working-with-bool">Working with <code>bool</code></h3>
-<pre><code class="language-eiger">~ Declaring a boolean
-is_student = true
-
-~ Using boolean in conditions
-if is_student then
-    emitln(&quot;You are a student&quot;)
-else
-    emitln(&quot;You are not a student&quot;)
-end
+<h2 id="_7">Пример структуры проекта</h2>
+<p>Вот пример структуры проекта, использующего модули:</p>
+<pre><code class="language-none">project/
+│
+├── main.ei
+└── mymodule.ei
 </code></pre>
-<h3 id="working-with-string">Working with <code>string</code></h3>
-<pre><code class="language-eiger">~ Declaring a string
-name = &quot;Alice&quot;
+<h3 id="mainei"><code>main.ei</code></h3>
+<pre><code class="language-eiger">~ это комментарий
+include math ~ не используйте кавычки для встроенных модулей
+include &quot;mymodule.ei&quot; ~ используйте кавычки для пользовательских модулей
 
-~ String concatenation
-greeting = &quot;Hello, &quot; + name + &quot;!&quot;
-
-~ String interpolation
-message = &quot;Your name is &quot; + name + &quot; and you are &quot; + age + &quot; years old.&quot;
+emitln(Test.message) ~ Использование класса из пользовательского модуля
 </code></pre>
-<h3 id="working-with-nix">Working with <code>nix</code></h3>
-<pre><code class="language-eiger">~ Declaring a nix
-value = nix
+<h3 id="mymoduleei"><code>mymodule.ei</code></h3>
+<pre><code class="language-eiger">emitln(&quot;my module loaded!&quot;) ~ Это будет выполнено при включении модуля
+                            ~ то есть в начале программы
 
-~ Checking for nix
-if value ?= nix then
-    emitln(&quot;The value is undefined&quot;)
-else
-    emitln(&quot;The value is defined&quot;)
-end
-
-~ Using nix in arrays
-data = [1, nix, &quot;example&quot;, nix]
-
-for i = 0 to data.length do
-    if data[i] ?= nix then
-        emitln(&quot;Found an undefined value&quot;)
-    else
-        emitln(&quot;Value: &quot; + data[i])
-    end
-end
-</code></pre>
-<h3 id="combining-different-data-types">Combining different data types</h3>
-<pre><code class="language-eiger">~ Mixed type array
-mixed_array = [1, 2.5, &quot;example&quot;, true, nix]
-
-for i = 0 to mixed_array.length do
-    emitln(&quot;Value: &quot; + mixed_array[i])
+dataclass Test
+    message = &quot;Hello World!&quot;
 end
 </code></pre>
 
@@ -904,12 +826,12 @@ end
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
-        <script src="../../overrides/eiger-highlight.js"></script>
+        <script src="../../../overrides/eiger-highlight.js"></script>
       
     
   </body>
