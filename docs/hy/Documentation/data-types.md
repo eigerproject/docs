@@ -16,14 +16,14 @@
 
 ```eiger
 ~ Զանգվածներ
-a = [1,2,3]
-b = ["Բարեւ, աշխարհ",2.0,4.2]
+let a = [1,2,3]
+let b = ["Բարեւ, աշխարհ",2.0,4.2]
 
 ~ Զանգվածները կարող են լինել բույն
-d = [[1,2],[[3,4],5]]
+let d = [[1,2],[[3,4],5]]
 
 ~ Զանգվածները կարող են դատարկ լինել
-e = []
+let e = []
 ```
 
 ## Օգտագործման օրինակներ
@@ -31,31 +31,31 @@ e = []
 ### Աշխատանք `int`-ի հետ
 ```eiger
 ~ Ամբողջ թվի հայտարարում
-age = 25
+let age = 25
 
 ~ Թվաբանական գործողությունների կատարում
-sum = age + 5
-difference = age - 3
-product = age * 2
-quotient = age / 5
+let sum = age + 5
+let difference = age - 3
+let product = age * 2
+let quotient = age / 5
 ```
 
 ### Աշխատանք `double`-ի հետ
 ```eiger
 ~ Կոտորակային թվի հայտարարում
-height = 1.75
+let height = 1.75
 
 ~ Թվաբանական գործողությունների կատարում
-sum = height + 0.25
-difference = height - 0.5
-product = height * 2.0
-quotient = height / 2.0
+let sum = height + 0.25
+let difference = height - 0.5
+let product = height * 2.0
+let quotient = height / 2.0
 ```
 
 ### Աշխատանք `bool`-ի հետ
 ```eiger
 ~ Տրամաբանական արժեքի հայտարարում
-is_student = true
+let is_student = true
 
 ~ Տրամաբանական արժեքի օգտագործում պայմաններում
 if is_student then
@@ -68,19 +68,20 @@ end
 ### Աշխատանք `string`-ի հետ
 ```eiger
 ~ Տողի հայտարարում
-name = "Alice"
+let name = "Alice"
 
 ~ Տողերի կոնկատենացիա
-greeting = "Բարև, " + name + ":"
+let greeting = "Բարև, " + name + ":"
 
 ~ Տողերի ինտերպոլացիա
-message = "Ձեր անունը " + name + " է և դուք " + age + " տարեկան եք."
+let message = "Ձեր անունը " + name + " է և դուք " + age + " տարեկան եք."
 ```
 
 ### Աշխատանք `nix`-ի հետ
 ```eiger
 ~ nix-ի հայտարարում
-value = nix
+let value
+~ [ԿԱՄ] let value = nix
 
 ~ nix-ի ստուգում
 if value ?= nix then
@@ -90,7 +91,7 @@ else
 end
 
 ~ nix-ի օգտագործում զանգվածներում
-data = [1, nix, "օրինակ", nix]
+let data = [1, nix, "օրինակ", nix]
 
 for i = 0 to data.length do
     if data[i] ?= nix then
@@ -104,7 +105,7 @@ end
 ### Տարբեր տվյալների տեսակների համակցում
 ```eiger
 ~ Զանգված խառը տեսակներով
-mixed_array = [1, 2.5, "օրինակ", true, nix]
+let mixed_array = [1, 2.5, "օրինակ", true, nix]
 
 for i = 0 to mixed_array.length do
     emitln("Արժեքը: " + mixed_array[i])

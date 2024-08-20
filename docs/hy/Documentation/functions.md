@@ -58,14 +58,12 @@ end
 
 ```eiger
 func createCounter()
-    count = 0
+    let count = 0
 
-    func counter()
+    ret func()
         count += 1
         ret count
     end
-
-    ret counter
 end
 
 counter = createCounter()

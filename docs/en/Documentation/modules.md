@@ -57,6 +57,6 @@ emitln("my module loaded!") ~ This will be executed when the module is included
                             ~ i.e the start of the program
 
 dataclass Test
-    message = "Hello World!"
+    let message = "Hello World!"
 end
 ```

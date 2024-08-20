@@ -17,14 +17,14 @@
 
 ```eiger
 ~ Массивы
-a = [1,2,3]
-b = ["Привет, мир!", 2.0, 4.2]
+let a = [1,2,3]
+let b = ["Привет, мир!", 2.0, 4.2]
 
 ~ Массивы могут быть вложенными
-d = [[1,2],[[3,4],5]]
+let d = [[1,2],[[3,4],5]]
 
 ~ Массивы могут быть пустыми
-e = []
+let e = []
 ```
 
 ## Примеры использования
@@ -32,31 +32,31 @@ e = []
 ### Работа с `int`
 ```eiger
 ~ Объявление целого числа
-age = 25
+let age = 25
 
 ~ Выполнение арифметических операций
-sum = age + 5
-difference = age - 3
-product = age * 2
-quotient = age / 5
+let sum = age + 5
+let difference = age - 3
+let product = age * 2
+let quotient = age / 5
 ```
 
 ### Работа с `double`
 ```eiger
 ~ Объявление дробного числа
-height = 1.75
+let height = 1.75
 
 ~ Выполнение арифметических операций
-sum = height + 0.25
-difference = height - 0.5
-product = height * 2.0
-quotient = height / 2.0
+let sum = height + 0.25
+let difference = height - 0.5
+let product = height * 2.0
+let quotient = height / 2.0
 ```
 
 ### Работа с `bool`
 ```eiger
 ~ Объявление логического значения
-is_student = true
+let is_student = true
 
 ~ Использование логического значения в условиях
 if is_student then
@@ -69,19 +69,20 @@ end
 ### Работа с `string`
 ```eiger
 ~ Объявление строки
-name = "Alice"
+let name = "Alice"
 
 ~ Конкатенация строк
-greeting = "Привет, " + name + "!"
+let greeting = "Привет, " + name + "!"
 
 ~ Интерполяция строк
-message = "Ваше имя " + name + " и вам " + age + " лет."
+let message = "Ваше имя " + name + " и вам " + age + " лет."
 ```
 
 ### Работа с `nix`
 ```eiger
 ~ Объявление nix
-value = nix
+let value
+~ [ИЛИ] let value = nix
 
 ~ Проверка на nix
 if value ?= nix then
@@ -91,7 +92,7 @@ else
 end
 
 ~ Использование nix в массивах
-data = [1, nix, "пример", nix]
+let data = [1, nix, "пример", nix]
 
 for i = 0 to data.length do
     if data[i] ?= nix then
@@ -105,7 +106,7 @@ end
 ### Сочетание различных типов данных
 ```eiger
 ~ Массив со смешанными типами
-mixed_array = [1, 2.5, "пример", true, nix]
+let mixed_array = [1, 2.5, "пример", true, nix]
 
 for i = 0 to mixed_array.length do
     emitln("Значение: " + mixed_array[i])

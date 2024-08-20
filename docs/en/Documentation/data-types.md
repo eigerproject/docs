@@ -17,14 +17,14 @@ Arrays are declared using square brackets (`[]`). An array can contain any data 
 
 ```eiger
 ~ Arrays
-a = [1,2,3]
-b = ["Hello World!",2.0,4.2]
+let a = [1,2,3]
+let b = ["Hello World!",2.0,4.2]
 
 ~ Arrays can be nested
-d = [[1,2],[[3,4],5]]
+let d = [[1,2],[[3,4],5]]
 
 ~ Arrays can be empty
-e = []
+let e = []
 ```
 
 ## Examples of Usage
@@ -32,31 +32,31 @@ e = []
 ### Working with `int`
 ```eiger
 ~ Declaring an integer
-age = 25
+let age = 25
 
 ~ Performing arithmetic operations
-sum = age + 5
-difference = age - 3
-product = age * 2
-quotient = age / 5
+let sum = age + 5
+let difference = age - 3
+let product = age * 2
+let quotient = age / 5
 ```
 
 ### Working with `double`
 ```eiger
 ~ Declaring a double
-height = 1.75
+let height = 1.75
 
 ~ Performing arithmetic operations
-sum = height + 0.25
-difference = height - 0.5
-product = height * 2.0
-quotient = height / 2.0
+let sum = height + 0.25
+let difference = height - 0.5
+let product = height * 2.0
+let quotient = height / 2.0
 ```
 
 ### Working with `bool`
 ```eiger
 ~ Declaring a boolean
-is_student = true
+let is_student = true
 
 ~ Using boolean in conditions
 if is_student then
@@ -69,19 +69,20 @@ end
 ### Working with `string`
 ```eiger
 ~ Declaring a string
-name = "Alice"
+let name = "Alice"
 
 ~ String concatenation
-greeting = "Hello, " + name + "!"
+let greeting = "Hello, " + name + "!"
 
 ~ String interpolation
-message = "Your name is " + name + " and you are " + age + " years old."
+let message = "Your name is " + name + " and you are " + age + " years old."
 ```
 
 ### Working with `nix`
 ```eiger
 ~ Declaring a nix
-value = nix
+let value
+~ [OR] let value = nix
 
 ~ Checking for nix
 if value ?= nix then
@@ -105,7 +106,7 @@ end
 ### Combining different data types
 ```eiger
 ~ Mixed type array
-mixed_array = [1, 2.5, "example", true, nix]
+let mixed_array = [1, 2.5, "example", true, nix]
 
 for i = 0 to mixed_array.length do
     emitln("Value: " + mixed_array[i])

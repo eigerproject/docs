@@ -27,12 +27,12 @@ Eiger — язык программирования, предназначенн�
 ### __:fontawesome-solid-code: Синтаксис__
 ```eiger
 ~ Это комментарий
-message = "Привет, мир!"
+let message = "Привет, мир!"
 emitln(message)
 
 func ask(a,b)
     emitln("Сколько будет " + a.asString + " + " + b.asString + "?")
-    sum = int(in())
+    let sum = int(in())
     ret sum ?= (a + b)
 end
 

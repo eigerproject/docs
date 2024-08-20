@@ -26,12 +26,12 @@ Eiger-ը ծրագրավորման լեզու է, որը նախատեսված է 
 ### __:fontawesome-solid-code: Սինտաքս__
 ```eiger
 ~ Սա կոմմենտ է
-message = "Բարեւ, աշխարհ"
+let message = "Բարեւ, աշխարհ"
 emitln(message)
 
 func ask(a,b)
     emitln("Ինչ է " + a.asString + " + " + b.asString)
-    sum = int(in())
+    let sum = int(in())
     ret sum ?= (a + b)
 end
 
