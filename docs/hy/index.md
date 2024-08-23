@@ -1,6 +1,6 @@
 # __:fontawesome-solid-door-open: Բարի գալուստ__
 
-<img alt="Eigerlang logo" src="../logo.png" id = "main-logo-ei">
+<img alt="Eigerlang logo" src="https://eigerproject.github.io/resource/logo.png" id = "main-logo-ei">
 
 Eiger (անունը [Շվեյցարիայի Էյգեր լեռից](https://en.wikipedia.org/wiki/Eiger)) պարզ, դինամիկ տպագրված ծրագրավորման լեզու է:
 
