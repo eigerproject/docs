@@ -1,5 +1,7 @@
 # __:fontawesome-solid-door-open: Добро пожаловать!__
-![Логотип](../wordmark.png)
+
+<img alt="Eigerlang logo" src="../logo.png" id = "main-logo-ei">
+
 Eiger (название от [горы Эйгер, Швейцария](https://ru.wikipedia.org/wiki/%D0%90%D0%B9%D0%B3%D0%B5%D1%80)) — простой интерпретируемый язык программирования с динамической типизацией.
 
 ---

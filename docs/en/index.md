@@ -1,5 +1,7 @@
 # __:fontawesome-solid-door-open: Welcome!__
-![Wordmark](../wordmark.png)
+
+<img alt="Eigerlang logo" src="../logo.png" id = "main-logo-ei">
+
 Eiger (name from [Mt. Eiger, Switzerland](https://en.wikipedia.org/wiki/Eiger)) is a simple, interpreted,dynamic-typed programming language.
 
 ---
