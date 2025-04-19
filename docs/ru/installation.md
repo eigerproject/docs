@@ -5,29 +5,72 @@
 ---
 
 ## :fontawesome-brands-windows: Windows
-Перейдите на [страницу выпусков](https://github.com/eigerproject/eigerlang/releases) репозитории и загрузите `eiger-win.zip` последней версии.
-> __Если стабильных версий языка еще нет, обратитесь к разделу [«сборка из исходного кода»](#_2).__
+Перейдите на [страницу релизов](https://github.com/eigerproject/eigerlang/releases) на Github и загрузите `eiger-win.zip` последней версии.
+> __Если стабильных версий языка пока нет, обратитесь к [сборке из исходного кода](#building-from-source).__
 ### Добавление переменной среды (Windows)
 ```batch
-setx PATH "%PATH%;C:\путь\к\eiger-win"
+setx PATH "%PATH%;C:\path\to\eiger-win"
 ```
-
 ---
 
 ## :fontawesome-brands-apple: macOS
-> __обратитесь к разделу [«сборка из исходного кода»](#_2).__
+> __обратитесь к [сборке из исходного кода](#building-from-source).__
 
 ---
 
 ## :fontawesome-brands-linux: Linux
-> __обратитесь к разделу [«сборка из исходного кода»](#_2).__
+> __обратитесь к [сборке из исходного кода](#building-from-source).__
 
 ---
 
 ## :fontawesome-solid-code: Сборка из исходного кода
-### Требования
- - Visual Studio (или любая IDE, которая может открывать файлы `.sln`) с компилятором C#
-### Шаги
- - Клонировайте репозиторию `https://github.com/eigerproject/eigerlang.git`
- - Откройте решение `eiger.sln` с помощью Visual Studio.
- - Стройте и запускайте
+
+### При использовании Visual Studio
+
+#### Требования
+- Visual Studio с установленной C# development workload
+
+#### Шаги
+1. Клонируйте репозиторий:  
+   `git clone https://github.com/eigerproject/eigerlang.git`
+2. Откройте файл решения `eiger.sln` в Visual Studio.
+3. Постройте и запустите проект.
+
+---
+
+### При использовании .NET CLI
+
+#### Требования
+- .NET SDK (включает .NET CLI)
+
+#### Шаги
+1. Клонируйте репозиторий:  
+   `git clone https://github.com/eigerproject/eigerlang.git`
+2. Перейдите в папку `/eiger`.
+3. Запустите проект: `dotnet run`
+
+---
+
+## :fontawesome-solid-vial-circle-check: Запуск модульных тестов
+
+### При использовании Visual Studio
+
+#### Требования
+- Visual Studio с установленной C# development workload
+
+#### Шаги
+1. Откройте файл решения `eiger.sln` в Visual Studio.
+2. Используйте **Test Explorer** для обнаружения и запуска всех тестов.
+
+---
+
+### При использовании .NET CLI
+
+#### Требования
+- .NET SDK (включает .NET CLI)
+
+#### Шаги
+1. Клонируйте репозиторий:  
+   `git clone https://github.com/eigerproject/eigerlang.git`
+2. Перейдите в папку `/eiger.Tests`.
+3. Запустите тесты: `dotnet test`
