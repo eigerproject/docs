@@ -8,7 +8,7 @@ script1.onload = function() {
       contains: [
         {
           className: 'keyword',
-          begin: '\\b(include|for|class|func|end|dataclass|if|while|then|to|do|else|elif|let|ret)\\b'
+          begin: '\\b(include|for|class|func|end|dataclass|if|while|then|to|do|else|elif|let|private|readonly|ret)\\b'
         },
         {
           className: 'string',
