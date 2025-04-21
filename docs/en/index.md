@@ -22,7 +22,7 @@ Eiger is a versatile programming language designed to simplify coding. Named aft
 ### __:fontawesome-solid-bolt: Current Features__
 
 - __:fontawesome-solid-quote-right: Dynamic Typing__: Eiger allows you to write code without worrying about data types. Variables are dynamically typed, enabling you to focus on logic rather than type declarations
-- __:fontawesome-solid-language: Interpreted Execution__: Eiger is an interpreted language, which means the code is executed line-by-line by the interpreted.
+- __:fontawesome-solid-language: Interpreted Execution__: Eiger is an interpreted language, which means the code is executed by the interpreter.
 - __:fontawesome-solid-code: Clean Syntax__: The syntax of Eiger is designed to be easy and readable. Inspired by the simplicity of languages like Python, it aims to reduce boilerplate code
 - __:fontawesome-solid-book: Standard Libraries__: Eiger has standard libraries that can be included in your code with one line of code. Standard libraries have commonly used code and can help development
 
