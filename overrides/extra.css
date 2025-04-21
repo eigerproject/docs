@@ -7,7 +7,7 @@
 }
 
 #main-logo-ei {
-    width: 100px;
+    height: 128px;
 }
 
 .md-footer, .md-footer-meta {
@@ -57,4 +57,15 @@ code {
 .hljs-operator {
     color: #8b7f7f;
     font-weight: bold;
+}
+
+
+.md-header__button.md-logo {
+    margin: 2px;
+    padding: 0;
+}
+
+.md-header__button.md-logo img {
+    height: 2rem;
+    width: 2rem;
 }
