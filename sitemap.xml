@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>None./</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/"/>
@@ -10,7 +10,7 @@
     </url>
     <url>
         <loc>Nonecontributing/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonecontributing/"/>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/contributing/"/>
@@ -18,7 +18,7 @@
     </url>
     <url>
         <loc>Noneinstallation/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Noneinstallation/"/>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/installation/"/>
@@ -26,7 +26,7 @@
     </url>
     <url>
         <loc>Nonequickstart/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonequickstart/"/>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/quickstart/"/>
@@ -34,7 +34,7 @@
     </url>
     <url>
         <loc>NoneDocumentation/control-flow/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/control-flow/"/>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/control-flow/"/>
@@ -42,7 +42,7 @@
     </url>
     <url>
         <loc>NoneDocumentation/data-types/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/data-types/"/>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/data-types/"/>
@@ -50,7 +50,7 @@
     </url>
     <url>
         <loc>NoneDocumentation/functions/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/functions/"/>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/functions/"/>
@@ -58,7 +58,7 @@
     </url>
     <url>
         <loc>NoneDocumentation/modules/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/modules/"/>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/modules/"/>
@@ -66,7 +66,7 @@
     </url>
     <url>
         <loc>NoneDocumentation/oop/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/oop/"/>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/oop/"/>
@@ -74,7 +74,7 @@
     </url>
     <url>
         <loc>Noneru/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/"/>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
@@ -82,7 +82,7 @@
     </url>
     <url>
         <loc>Noneru/contributing/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/contributing/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonecontributing/"/>
@@ -90,7 +90,7 @@
     </url>
     <url>
         <loc>Noneru/installation/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/installation/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneinstallation/"/>
@@ -98,7 +98,7 @@
     </url>
     <url>
         <loc>Noneru/quickstart/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/quickstart/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonequickstart/"/>
@@ -106,7 +106,7 @@
     </url>
     <url>
         <loc>Noneru/Documentation/control-flow/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Documentation/control-flow/"/>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/control-flow/"/>
@@ -114,7 +114,7 @@
     </url>
     <url>
         <loc>Noneru/Documentation/data-types/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Documentation/data-types/"/>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/data-types/"/>
@@ -122,7 +122,7 @@
     </url>
     <url>
         <loc>Noneru/Documentation/functions/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Documentation/functions/"/>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/functions/"/>
@@ -130,7 +130,7 @@
     </url>
     <url>
         <loc>Noneru/Documentation/modules/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Documentation/modules/"/>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/modules/"/>
@@ -138,7 +138,7 @@
     </url>
     <url>
         <loc>Noneru/Documentation/oop/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="Noneru/Documentation/oop/"/>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/oop/"/>
@@ -146,7 +146,7 @@
     </url>
     <url>
         <loc>Nonehy/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/"/>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
@@ -154,7 +154,7 @@
     </url>
     <url>
         <loc>Nonehy/contributing/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/contributing/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonecontributing/"/>
@@ -162,7 +162,7 @@
     </url>
     <url>
         <loc>Nonehy/installation/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/installation/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Noneinstallation/"/>
@@ -170,7 +170,7 @@
     </url>
     <url>
         <loc>Nonehy/quickstart/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/quickstart/"/>
         <xhtml:link rel="alternate" hreflang="en" href="Nonequickstart/"/>
@@ -178,7 +178,7 @@
     </url>
     <url>
         <loc>Nonehy/Documentation/control-flow/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/control-flow/"/>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/control-flow/"/>
@@ -186,7 +186,7 @@
     </url>
     <url>
         <loc>Nonehy/Documentation/data-types/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/data-types/"/>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/data-types/"/>
@@ -194,7 +194,7 @@
     </url>
     <url>
         <loc>Nonehy/Documentation/functions/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/functions/"/>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/functions/"/>
@@ -202,7 +202,7 @@
     </url>
     <url>
         <loc>Nonehy/Documentation/modules/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/modules/"/>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/modules/"/>
@@ -210,7 +210,7 @@
     </url>
     <url>
         <loc>Nonehy/Documentation/oop/</loc>
-        <lastmod>2025-04-21</lastmod>
+        <lastmod>2025-06-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="hy" href="Nonehy/Documentation/oop/"/>
         <xhtml:link rel="alternate" hreflang="en" href="NoneDocumentation/oop/"/>
