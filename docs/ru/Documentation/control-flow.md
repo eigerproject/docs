@@ -6,18 +6,18 @@
 
 ### оператор `if`
 ```eiger
-if true then
+if true {
     emitln("условие истинно")
-end
+}
 ```
 
 ### оператор `if-else`
 ```eiger
-if 1 + 1 ?= 2 then
+if 1 + 1 ?= 2 {
     emitln("1 + 1 = 2")
-else
+} else {
     ~ Недостижимый код
-end
+}
 ```
 
 ## Циклы 
@@ -29,17 +29,17 @@ end
 Допустим, нам нужно иметь значение `x`, и оно будет увеличиваться на 1 до конечного значения. Нам также нужно выполнять блок кода на каждой итерации.
 __Эти циклы называются [Count-controlled loops](https://en.wikipedia.org/wiki/Control_flow#Count-controlled_loops).__
 ```eiger
-for x = 0 to 10 do
+for x = 0 to 10 {
     emitln(x)
-end
+}
 ```
 
 ### Цикл `while`
 Циклы while будут повторять код до тех пор, пока заданное условие не перестанет быть истинным. __Эти циклы называются [Condition-controlled loops](https://en.wikipedia.org/wiki/Control_flow#Condition-controlled_loops)__
 ```eiger
 x = 0
-while x < 10 do
+while x < 10 {
     emitln(x)
     x += 1
-end
+}
 ```

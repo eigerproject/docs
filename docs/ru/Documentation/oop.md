@@ -8,36 +8,36 @@ __Класс__ определяет схему объектов. Он может
 
 #### Синтаксис
 ```eiger
-class ClassName
+class ClassName {
     let [modifiers] propertyName
 
     ~ Функция `new` действует как конструктор.
-    func new(parameters)
+    func new(parameters) {
         ~ `this` - ссылка на текущий объект.
         this.propertyName = parameter
-    end
-end
+    }
+}
 ```
 
 #### Пример
 ```eiger
-class Person
+class Person {
     let private m_name
     let private m_age
     let private m_birthYear
 
     ~ Конструктор
-    func new(name, age, birthYear)
+    func new(name, age, birthYear) {
         this.m_name = name
         this.m_age = age
         this.m_birthYear = birthYear
-    end
+    }
 
     ~ Метод
-    func summary()
+    func summary() {
         ret (m_name + " (" + m_age.asString + " years old, born " + m_birthYear.asString + ")")
-    end
-end
+    }
+}
 
 ~ Создание объекта класса из "чертежа" (класса)
 let personOne = Person("John", 25, 2000)
@@ -54,51 +54,3 @@ emitln(personOne.summary())
 - Конструктор:
     - Объявлено с помощью `func new(params)`
     - Используется для инициализации объекта.
-
-## Датаклассы
-
-Класс данных (датакласс) определяет группу статических свойств. __Он ведет себя как класс, но не имеет конструктора.__
-
-
-#### Синтаксис
-```eiger
-dataclass ClassName
-    let [modifiers] propertyName = value
-    
-    func method(params)
-        ~ ...
-    end
-end
-```
-
-#### Пример
-```eiger
-dataclass math
-    ~ Mathematical Constants
-    let readonly pi = 3.14159265358979323846
-    let readonly e = 2.718281828459045
-
-    ~ get the unsigned value of a number
-    func abs(n)
-        if n < 0 then
-            ret -n
-        else
-            ret n
-        end
-    end
-
-    func sin(theta)
-        ~ ...
-    end
-end
-
-emitln(math.abs(-128))
-emitln(math.sin(math.pi))
-```
-
-### Функции
-- __Статический__ по своей природе: вы не создаете экземпляр класса данных.
-- Модификаторы доступа:
-    - `public` (по умолчанию): Доступно из любой точки в программе
-    - `private`: Доступно только внутри класса
-- функция `new` не используется.

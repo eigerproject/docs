@@ -6,18 +6,18 @@ In Eiger, the `if` statement is used to execute code if a condition is `true`. T
 
 ### `if` statement
 ```eiger
-if true then
+if true {
     emitln("condition is true")
-end
+}
 ```
 
 ### `if-else` statement
 ```eiger
-if 1 + 1 ?= 2 then
+if 1 + 1 ?= 2 {
     emitln("1 + 1 = 2")
-else
+} else {
     ~ Unreachable code
-end
+}
 ```
 
 ## Loops
@@ -29,17 +29,17 @@ In Eiger, for loops have 2 parts: **Variable declaration** and **end value**
 Let's say we need to have a value `x` and it will increment by 1 until the end value, we also need to execute a block of code on each iteration  
 __These types of loops are called [Count-controlled loops](https://en.wikipedia.org/wiki/Control_flow#Condition-controlled_loops)__
 ```eiger
-for x = 0 to 10 do
+for x = 0 to 10 {
     emitln(x)
-end
+}
 ```
 
 ### `while` loops
 While loops will repeat the code until the given condition is not true anymore. __Those are called [Condition-controlled loops](https://en.wikipedia.org/wiki/Control_flow#Condition-controlled_loops)__
 ```eiger
 x = 0
-while x < 10 do
+while x < 10 {
     emitln(x)
     x += 1
-end
+}
 ```

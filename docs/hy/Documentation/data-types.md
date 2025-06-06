@@ -58,11 +58,10 @@ let quotient = height / 2.0
 let is_student = true
 
 ~ Տրամաբանական արժեքի օգտագործում պայմաններում
-if is_student then
+if is_student
     emitln("Դուք ուսանող եք")
 else
     emitln("Դուք ուսանող չեք")
-end
 ```
 
 ### Աշխատանք `string`-ի հետ
@@ -84,22 +83,20 @@ let value
 ~ [ԿԱՄ] let value = nix
 
 ~ nix-ի ստուգում
-if value ?= nix then
+if value ?= nix
     emitln("Արժեքը անորոշ է")
 else
     emitln("Արժեքը որոշված է")
-end
 
 ~ nix-ի օգտագործում զանգվածներում
 let data = [1, nix, "օրինակ", nix]
 
-for i = 0 to data.length do
-    if data[i] ?= nix then
+for i = 0 to data.length {
+    if data[i] ?= nix
         emitln("Գտնվել է անորոշ արժեք")
     else
         emitln("Արժեքը: " + data[i])
-    end
-end
+}
 ```
 
 ### Տարբեր տվյալների տեսակների համակցում
@@ -107,7 +104,6 @@ end
 ~ Զանգված խառը տեսակներով
 let mixed_array = [1, 2.5, "օրինակ", true, nix]
 
-for i = 0 to mixed_array.length do
+for i = 0 to mixed_array.length
     emitln("Արժեքը: " + mixed_array[i])
-end
 ```

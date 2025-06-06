@@ -59,11 +59,10 @@ let quotient = height / 2.0
 let is_student = true
 
 ~ Использование логического значения в условиях
-if is_student then
+if is_student
     emitln("Вы студент")
 else
     emitln("Вы не студент")
-end
 ```
 
 ### Работа с `string`
@@ -85,22 +84,20 @@ let value
 ~ [ИЛИ] let value = nix
 
 ~ Проверка на nix
-if value ?= nix then
+if value ?= nix
     emitln("Значение неопределено")
 else
     emitln("Значение определено")
-end
 
 ~ Использование nix в массивах
 let data = [1, nix, "пример", nix]
 
-for i = 0 to data.length do
-    if data[i] ?= nix then
+for i = 0 to data.length {
+    if data[i] ?= nix
         emitln("Найдено неопределенное значение")
     else
         emitln("Значение: " + data[i])
-    end
-end
+}
 ```
 
 ### Сочетание различных типов данных
@@ -108,7 +105,6 @@ end
 ~ Массив со смешанными типами
 let mixed_array = [1, 2.5, "пример", true, nix]
 
-for i = 0 to mixed_array.length do
+for i = 0 to mixed_array.length
     emitln("Значение: " + mixed_array[i])
-end
 ```

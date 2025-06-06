@@ -7,16 +7,16 @@
 
 ### Շարահյուսություն
 ```eiger
-func functionName(parameters)
+func functionName(parameters) {
     ~ ֆունկցիայի մարմին
-end
+}
 ```
 
 ### Օրինակ
 ```eiger
-func greet(name)
+func greet(name) {
     emitln("Բարև, " + name + "!")
-end
+}
 ```
 
 ## Ֆունկցիայի պարամետրեր
@@ -24,16 +24,16 @@ end
 
 ### Շարահյուսություն
 ```eiger
-func functionName(param1, param2, ...)
+func functionName(param1, param2, ...) {
     ~ ֆունկցիայի մարմին
-end
+}
 ```
 
 ### Օրինակ
 ```eiger
-func printAge(name, age)
+func printAge(name, age) {
     emitln(name + "ը " + age + " տարեկան է")
-end
+}
 ```
 
 ## Վերադարձվող արժեքներ
@@ -41,30 +41,30 @@ end
 
 ### Շարահյուսություն
 ```eiger
-func functionName(parameters)
+func functionName(parameters) {
     ret value
-end
+}
 ```
 
 ### Օրինակ
 ```eiger
-func add(a, b)
+func add(a, b) {
     ret a + b
-end
+}
 ```
 
 ## Տեսանելիություն
 Ֆունկցիայի ներսում հայտարարված փոփոխականները տեղային են այդ ֆունկցիայի համար: Ֆունկցիաները կարող են նաև վերադարձնել ֆունկցիաներ, որոնք փակում և հիշում են այն միջավայրը, որտեղ ստեղծվել են։
 
 ```eiger
-func createCounter()
+func createCounter() {
     let count = 0
 
-    ret func()
+    ret func() {
         count += 1
         ret count
-    end
-end
+    }
+}
 
 counter = createCounter()
 
@@ -77,13 +77,13 @@ emitln(counter()) ~ 3
 Բարձրակարգ ֆունկցիաները այն ֆունկցիաներն են, որոնք ընդունում են այլ ֆունկցիաներ որպես արգումենտներ կամ վերադարձնում են դրանք որպես արդյունքներ: Դրանք հանդիսանում են ֆունկցիոնալ ծրագրավորման հիմնական հատկություններից մեկը։
 
 ```eiger
-func applyFunction(fn, value)
+func applyFunction(fn, value) {
     ret fn(value)
-end
+}
 
-func cube(x)
+func cube(x) {
     ret x ^ 3
-end
+}
 
 emitln(applyFunction(cube, 3)) ~ 27
 ```

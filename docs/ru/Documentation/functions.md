@@ -7,16 +7,16 @@
 
 ### Синтаксис
 ```eiger
-func functionName(parameters)
+func functionName(parameters) {
     ~ тело функции
-end
+}
 ```
 
 ### Пример
 ```eiger
-func greet(name)
+func greet(name) {
     emitln("Привет, " + name + "!")
-end
+}
 ```
 
 ## Параметры функции
@@ -24,16 +24,16 @@ end
 
 ### Синтаксис
 ```eiger
-func functionName(param1, param2, ...)
+func functionName(param1, param2, ...) {
     ~ тело функции
-end
+}
 ```
 
 ### Пример
 ```eiger
-func printAge(name, age)
+func printAge(name, age) {
     emitln(name + " " + age + " лет")
-end
+}
 ```
 
 ## Возвращаемые значения
@@ -41,30 +41,30 @@ end
 
 ### Синтаксис
 ```eiger
-func functionName(parameters)
+func functionName(parameters) {
     ret value
-end
+}
 ```
 
 ### Пример
 ```eiger
-func add(a, b)
+func add(a, b) {
     ret a + b
-end
+}
 ```
 
 ## Область видимости и замыкания
 Переменные, объявленные внутри функции, являются локальными для этой функции. Функции также могут создавать замыкания, которые представляют собой функции, которые захватывают и запоминают окружение, в котором они были созданы.
 
 ```eiger
-func createCounter()
+func createCounter() {
     let count = 0
 
-    ret func()
+    ret func() {
         count += 1
         ret count
-    end
-end
+    }
+}
 
 counter = createCounter()
 
@@ -77,13 +77,13 @@ emitln(counter()) ~ 3
 Функции высшего порядка — это функции, которые принимают другие функции в качестве аргументов или возвращают их в качестве результатов. Они являются ключевой особенностью функционального программирования.
 
 ```eiger
-func applyFunction(fn, value)
+func applyFunction(fn, value) {
     ret fn(value)
-end
+}
 
-func cube(x)
+func cube(x) {
     ret x ^ 3
-end
+}
 
 emitln(applyFunction(cube, 3)) ~ 27
 ```

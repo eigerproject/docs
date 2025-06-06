@@ -59,11 +59,10 @@ let quotient = height / 2.0
 let is_student = true
 
 ~ Using boolean in conditions
-if is_student then
+if is_student 
     emitln("You are a student")
-else
+else 
     emitln("You are not a student")
-end
 ```
 
 ### Working with `string`
@@ -94,13 +93,12 @@ end
 ~ Using nix in arrays
 data = [1, nix, "example", nix]
 
-for i = 0 to data.length do
-    if data[i] ?= nix then
+for i = 0 to data.length {
+    if data[i] ?= nix
         emitln("Found an undefined value")
     else
         emitln("Value: " + data[i])
-    end
-end
+}
 ```
 
 ### Combining different data types
@@ -108,7 +106,6 @@ end
 ~ Mixed type array
 let mixed_array = [1, 2.5, "example", true, nix]
 
-for i = 0 to mixed_array.length do
+for i = 0 to mixed_array.length
     emitln("Value: " + mixed_array[i])
-end
 ```

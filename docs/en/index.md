@@ -32,16 +32,15 @@ Eiger is a versatile programming language designed to simplify coding. Named aft
 let message = "Hello, World!"
 emitln(message)
 
-func ask(a,b)
+func ask(a,b) {
     emitln("What is " + a.asString + " + " + b.asString + "?")
     let sum = int(in())
     ret sum ?= (a + b)
-end
+}
 
-if ask(9,10) then
+if ask(9,10)
     emitln("Correct!")
 else
     emitln("Wrong")
-end
 ```
 This is a simple demonstration of the syntax of the Eiger programming language. Check out other pages here for further documentation.

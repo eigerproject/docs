@@ -7,16 +7,16 @@ To define a function, use the `func` keyword followed by the function name and p
 
 ### Syntax
 ```eiger
-func functionName(parameters)
+func functionName(parameters) {
     ~ function body
-end
+}
 ```
 
 ### Example
 ```eiger
-func greet(name)
+func greet(name) {
     emitln("Hello, " + name + "!")
-end
+}
 ```
 
 ## Function Parameters
@@ -24,16 +24,16 @@ Functions can accept parameters, which are values passed into the function. Para
 
 ### Syntax
 ```eiger
-func functionName(param1, param2, ...)
+func functionName(param1, param2, ...) {
     ~ function body
-end
+}
 ```
 
 ### Example
 ```eiger
-func printAge(name, age)
+func printAge(name, age) {
     emitln(name + " is " + age + " years old")
-end
+}
 ```
 
 ## Return Values
@@ -41,30 +41,30 @@ Functions can return a value using the `ret` statement. If no return statement i
 
 ### Syntax
 ```eiger
-func functionName(parameters)
+func functionName(parameters) {
     ret value
-end
+}
 ```
 
 ### Example
 ```eiger
-func add(a, b)
+func add(a, b) {
     ret a + b
-end
+}
 ```
 
 ## Scope and Closures
 Variables declared inside a function are local to that function. Functions can also create closures, which are functions that capture and remember the environment in which they were created.
 
 ```eiger
-func createCounter()
+func createCounter() {
     let count = 0
 
-    ret func()
+    ret func() {
         count += 1
         ret count
-    end
-end
+    }
+}
 
 counter = createCounter()
 
@@ -77,13 +77,13 @@ emitln(counter()) ~ 3
 Higher-order functions are functions that take other functions as arguments or return them as results. They are a key feature of functional programming.
 
 ```eiger
-func applyFunction(fn, value)
+func applyFunction(fn, value) {
     ret fn(value)
-end
+}
 
-func cube(x)
+func cube(x) {
     ret x ^ 3
-end
+}
 
 emitln(applyFunction(cube, 3)) ~ 27
 ```

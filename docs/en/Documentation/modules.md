@@ -28,9 +28,9 @@ include "mymodule.ei" ~ This includes the user-defined module mymodule.ei
 After including a module, you can access its functionality and defined classes or variables. For instance, if a module defines a class or a variable, you can use them directly in your code.
 
 ```eiger
-include "mymodule.ei" ~ This module has an implementation for dataclass Test
+include "mymodule.ei" ~ This module includes the namespace Test
 
-emitln(Test.message) ~ Accessing a property from a dataclass from an included module
+emitln(Test.message) ~ Accessing a property from a namespace from an included module
 ```
 
 ## Example Project Structure
@@ -56,7 +56,7 @@ emitln(Test.message) ~ Using a class from the user-defined module
 emitln("my module loaded!") ~ This will be executed when the module is included
                             ~ i.e the start of the program
 
-dataclass Test
+namespace Test {
     let message = "Hello World!"
-end
+}
 ```

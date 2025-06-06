@@ -31,16 +31,15 @@ Eiger-ը ծրագրավորման լեզու է, որը նախատեսված է 
 let message = "Բարեւ, աշխարհ"
 emitln(message)
 
-func ask(a,b)
+func ask(a,b) {
     emitln("Ինչ է " + a.asString + " + " + b.asString)
     let sum = int(in())
     ret sum ?= (a + b)
-end
+}
 
-if ask(9,10) then
+if ask(9,10)
     emitln("Ճիշտ է")
 else
     emitln("Սխալ է")
-end
 ```
 Սա Eiger ծրագրավորման լեզվի սինտաքսի պարզ ցուցադրումն է:
